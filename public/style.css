@@ -1,0 +1,128 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  /* Cor de fundo mais suave */
+  background-color: #f0f0f0; 
+  color: #333; /* Cor do texto */
+  text-align: center;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 10px;
+  right: 70px;
+}
+
+.nav-link {
+  color: #333; /* Cor do texto do menu */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f53e15a9 ; /* Cor do hover do menu */
+}
+
+/* Cabeçalho */
+header h1 {
+  font-size: 2.5rem;
+  margin-top: 100px; /* Reduzida a margem superior */
+  margin-bottom: 50px; /* Reduzida a margem inferior */
+}
+
+/* Área principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.url-input {
+  width: 70%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.url-input input {
+  width: 100%;
+  padding: 15px; /* Margem interna maior */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Borda mais suave */
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+}
+
+.resultado-box {
+  background-color: #f0f0f0; /* Cor de fundo mais próxima ao corpo */
+  color: #333;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicionada sombra */
+  max-width: 300px; 
+  word-wrap: break-word;
+  display: none;
+}
+
+.resultado-box.visivel {
+  display: block;
+}
+
+.resultado-box a {
+  color: #7c8dc5; /* Cor do link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resultado-box a:hover {
+  text-decoration: underline;
+}
+
+/* Botões */
+.buttons button {
+  background-color: #dda26a; /
+  color:after #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #f53e15a9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+
+.buttons button {
+  background-color: #e9421ce1; 
+}
+
+
+/* Rodapé */
+footer {
+  margin-top: 50px; /* Aumento da margem superior */
+  padding-bottom: 20px;
+}
+
+footer .mascotes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img {
+  width: 120px; /* tamanho das mascotes */
+}
