@@ -4,9 +4,8 @@ body {
   padding: 0;
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  /* Cor de fundo mais suave */
   background-color: #f0f0f0; 
-  color: #333; /* Cor do texto */
+  color: #333;
   text-align: center;
 }
 
@@ -19,7 +18,7 @@ body {
 }
 
 .nav-link {
-  color: #333; /* Cor do texto do menu */
+  color: #333;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
@@ -27,14 +26,14 @@ body {
 }
 
 .nav-link:hover {
-  color: #f53e15a9 ; /* Cor do hover do menu */
+  color: #f53e15a9;
 }
 
 /* Cabeçalho */
 header h1 {
   font-size: 2.5rem;
-  margin-top: 100px; /* Reduzida a margem superior */
-  margin-bottom: 50px; /* Reduzida a margem inferior */
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 /* Área principal */
@@ -54,21 +53,21 @@ main {
 
 .url-input input {
   width: 100%;
-  padding: 15px; /* Margem interna maior */
+  padding: 15px;
   border: 1px solid #ccc;
-  border-radius: 5px; /* Borda mais suave */
+  border-radius: 5px;
   font-size: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .resultado-box {
-  background-color: #f0f0f0; /* Cor de fundo mais próxima ao corpo */
+  background-color: #f0f0f0;
   color: #333;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicionada sombra */
-  max-width: 300px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
   word-wrap: break-word;
   display: none;
 }
@@ -78,7 +77,7 @@ main {
 }
 
 .resultado-box a {
-  color: #7c8dc5; /* Cor do link */
+  color: #7c8dc5;
   text-decoration: none;
   font-weight: bold;
 }
@@ -89,31 +88,25 @@ main {
 
 /* Botões */
 .buttons button {
-  background-color: #dda26a; /
-  color:after #fff;
+  background-color: #dda26a; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto */
   padding: 15px 20px;
   border: none;
-  border-radius: 10px; 
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .buttons button:hover {
-  background-color: #f53e15a9; 
+  background-color: #f53e15a9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
 }
 
-
-.buttons button {
-  background-color: #e9421ce1; 
-}
-
-
 /* Rodapé */
 footer {
-  margin-top: 50px; /* Aumento da margem superior */
+  margin-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -124,5 +117,5 @@ footer .mascotes {
 }
 
 footer img {
-  width: 120px; /* tamanho das mascotes */
+  width: 120px;
 }
